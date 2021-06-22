@@ -16,6 +16,14 @@ humidity = api_data['main']['humidity']
 wind_speed = api_data['wind']['speed']
 date_time=datetime.now().strftime("%d %b %Y | %I:%M")
 
+print("___________________________________________________________")
+print("Weather Stats for - {} || {}".format(location.upper(), date_time))
+
+print("Current temperature is   : {:.2f} deg C".format(temperature_city))
+print("Current weather desc     : ",weather_description)
+print("Current Humidity         : ",humidity,'%')
+print("Current Wind Speed       : ",wind_speed,'kmph')
+
 sys.stdout = open("WeatherAPI.txt","w")
 
 print("___________________________________________________________")
