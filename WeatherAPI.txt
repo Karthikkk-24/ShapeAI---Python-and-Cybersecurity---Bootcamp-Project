@@ -1,0 +1,6 @@
+___________________________________________________________
+Weather Stats for - THANE || 22 Jun 2021 | 09:01
+Current temperature is   : 28.95 deg C
+Current weather desc     :  broken clouds
+Current Humidity         :  89 %
+Current Wind Speed       :  4.12 kmph
